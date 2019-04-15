@@ -12,7 +12,7 @@
     </div>
     <div class="content" v-show="step===1">
       <my-select :val='UserName' :columns="1" :cancel="(() =>this.show=false)" :confirm="log" :selectData="pickData" label="账户类型:  " placeholder="请选择"></my-select>
-      <my-input :val='UserName' label="提现卡号: " placeholder="请输入体现卡号"></my-input>
+      <my-input :val='UserName' label="提现卡号: " placeholder="请输入提现卡号"></my-input>
       <my-select :val='UserName' :columns="1" :cancel="(() =>this.show=false)" :confirm="log" :selectData="pickData" label="银行名称:  " placeholder="请选择"></my-select>
       <my-select :val='UserName' :columns="1" :cancel="(() =>this.show=false)" :confirm="log" :selectData="pickData" label="卡号城市:  " placeholder="请选择"></my-select>
       <my-select :val='UserName' :columns="1" :cancel="(() =>this.show=false)" :confirm="log" :selectData="pickData" label="支行名称:  " placeholder="请选择"></my-select>

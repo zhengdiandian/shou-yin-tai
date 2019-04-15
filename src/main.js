@@ -6,8 +6,12 @@ import icons from './components/icons.vue'
 import icons2 from './components/icons2.vue'
 import uniNavBar from '@/components/uni-nav-bar/uni-nav-bar.vue'
 import 'vant/lib/index.css'
+import Axios from 'axios'
 import { Tab, Tabs, DatetimePicker, Picker, Popup, Dialog } from 'vant'
 Vue.config.productionTip = false
+Vue.prototype.$axios = Axios.create({
+  baseURL: 'http://localhost:3000'
+})
 Vue.component('icons', icons)
 Vue.component('icons2', icons2)
 Vue.use(Tab).use(Tabs).use(DatetimePicker).use(Picker).use(Popup).use(Dialog)

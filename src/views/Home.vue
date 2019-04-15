@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <div class="home-bar">卡e族收银台</div>
-   <!-- <pop-box>
+   <pop-box>
       <div class="fill-in-pop">
         <div class="fill-wrap">
           <div class="warn"></div>
@@ -13,7 +13,7 @@
 
         </div>
       </div>
-    </pop-box> -->
+    </pop-box>
     <pop-Box v-if="showPop">
       <div class="pop-wrap">
         <div class="input-wrap ignore">

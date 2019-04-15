@@ -1,3 +1,5 @@
+/* eslint-disable no-tabs */
+/* eslint-disable no-mixed-spaces-and-tabs */
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
