@@ -1,0 +1,42 @@
+{
+  "name": "cheout-counter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@dcloudio/uni-ui": "0.0.7",
+    "ansi-colors": "^3.2.4",
+    "cssnano": "^4.1.10",
+    "postcss-aspect-ratio-mini": "^1.0.1",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-import": "^12.0.1",
+    "postcss-px-to-viewport": "^1.1.0",
+    "postcss-url": "^8.0.0",
+    "postcss-viewport-units": "^0.1.6",
+    "postcss-write-svg": "^3.0.1",
+    "vant": "^1.6.13",
+    "vue": "^2.6.6",
+    "vue-calendar-component": "^2.8.2",
+    "vue-core-image-upload": "^2.4.11",
+    "vue-pickers": "^1.1.5",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1",
+    "vux": "^2.9.3"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-eslint": "^3.5.0",
+    "@vue/cli-service": "^3.5.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "cssnano-preset-advanced": "^4.0.7",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.5.21"
+  }
+}
